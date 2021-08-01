@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+.container {
+  width: 1050px;
+  margin: 0 auto;
+}
+
+.top-banner {
+  text-align: center;
+  line-height: 30px;
+  height: 30px;
+  background-color: #610f8a;
+  color: white;
+  font-size: 10px;
+  font-weight: 550;
+}
+.Kurly-logo img {
+  width: 130px;
+  margin-bottom: 30px;
+}
+button {
+  background-color: white;
+  border-radius: 12px;
+  border: solid 1px grey;
+}
+.service-group {
+  margin-top: 10px;
+}
+.research-service,
+.service-area {
+  display: flex;
+  justify-content: space-between;
+}
+.Kurly-logo {
+  text-align: center;
+}
+.highlight {
+  color: #610f8a;
+  font-weight: bold;
+}
+.service-area button {
+  margin-right: 950px;
+}
+.location-service img,
+.shopping-basket img {
+  width: 35px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+.research-service {
+  font-size: 15px;
+  font-weight: bold;
+}
+.new-goods,
+.best-goods,
+.inexpensive-goods,
+.chance {
+  margin-left: 50px;
+}
+.search-bar button {
+  margin-left: 80px;
+}
+.service-area li {
+  float: left;
+  height: 37px;
+  padding: 0 22px 0 10px;
+  color: #333;
+  line-height: 35px;
+  white-space: nowrap;
+}
+.research-service li {
+  float: left;
+}
+section {
+  margin-top: 90px;
+}
+.section-head {
+  font-size: 33px;
+  font-weight: 550;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.good img {
+  width: 249px;
+  height: 320px;
+}
+.goods-list .goods {
+  float: left;
+}
+.goods-list {
+  display: flex;
+  justify-content: center;
+}
+.goods-list ul {
+  padding: 0px;
+}
+.good {
+  padding-left: 10px;
+  padding-right: 12px;
+  width: 300px;
+}
+.goods-name {
+  font-size: 17px;
+  font-weight: 500;
+  height: 44px;
+}
+.sale-rate {
+  font-size: 20px;
+  color: orangered;
+}
+.sale-price {
+  font-weight: bold;
+}
+.before-price {
+  text-decoration: line-through;
+  color: grey;
+}
+.good li {
+  margin-bottom: 6px;
+}
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+}
+.service-center {
+  position: relative;
+}
+.service-center .content {
+  display: none;
+  position: absolute;
+  z-index: 10;
+  right: 0;
+  top: 34px;
+  width: 102px;
+  padding: 3px 9px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+.service-center:hover .content {
+  display: block;
+}
+.service-center .content a {
+  font-size: 12px;
+  color: #404040;
+  line-height: 20px;
+  white-space: nowrap;
+  cursor: pointer;
+}
