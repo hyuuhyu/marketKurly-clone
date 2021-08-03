@@ -27,6 +27,7 @@ li {
 .shipping-service img {
     width: 121px;
     height: 22px;
+    margin-top: 10px;
 }
 .list-menu {
     font-family: "Noto Sans KR", sans-serif;
@@ -37,45 +38,54 @@ li {
 .service-center {
     margin-left: 10px;
 }
-.Kurly-logo img {
+.Kurly-logo {
     width: 103px;
     height: 79px;
-    margin: 0 auto;
+    margin-left: 122px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
-.Kurly-logo {
-    text-align: center;
-}
-button {
-    background-color: white;
-    border-radius: 12px;
-    border: solid 1px grey;
-}
-.research-service,
 .service-area {
     display: flex;
     justify-content: space-between;
-}
-.service-area button {
-    margin-right: 950px;
-}
-.location-service img,
-.shopping-basket img {
-    width: 35px;
-    margin-left: 30px;
-    margin-bottom: 10px;
+    font-family: "Noto Sans KR", sans-serif;
+    padding-top: 4px;
+    letter-spacing: -0.3px;
+    font-size: 16px;
+    color: #333;
 }
 .research-service {
-    font-size: 15px;
-    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Noto Sans KR", sans-serif;
+    letter-spacing: -0.3px;
+    font-size: 16px;
+    color: #333;
+    height: 39px;
 }
-.new-goods,
-.best-goods,
-.inexpensive-goods,
-.chance {
-    margin-left: 50px;
+.research-service ul li {
+    margin-right: 75px;
+    padding-top: 4px;
 }
-.search-bar button {
-    margin-left: 80px;
+.search-blank {
+    background-color: #f7f7f7;
+    border: 1px solid #f7f7f7;
+    border-radius: 18px;
+    width: 242px;
+    height: 36px;
+    font-family: "Noto Sans KR", sans-serif;
+    font-size: 12px;
+    coler: #666;
+    line-height: 16px;
+    outline: none;
+}
+.icon img {
+    margin-right: 15px;
+}
+.location img,
+.cart img {
+    width: 35px;
+    margin-left: 10px;
 }
 .service-area li {
     float: left;
@@ -87,6 +97,10 @@ button {
 }
 .research-service li {
     float: left;
+}
+.swiper-wrapper img {
+    width: 1519px;
+    height: 370px;
 }
 section {
     margin-top: 90px;

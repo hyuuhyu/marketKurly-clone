@@ -1,1 +1,0 @@
-# marketKurly-clone
