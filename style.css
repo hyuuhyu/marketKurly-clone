@@ -75,9 +75,19 @@ li {
     height: 36px;
     font-family: "Noto Sans KR", sans-serif;
     font-size: 12px;
-    coler: #666;
+    color: #666;
     line-height: 16px;
     outline: none;
+}
+.search-bar {
+    position: relative;
+}
+.search-icon {
+    display: inline-block;
+    position: absolute;
+    right: 108px;
+    top: 10px;
+    width: 242px;
 }
 .icon img {
     margin-right: 15px;
@@ -97,6 +107,10 @@ li {
 }
 .research-service li {
     float: left;
+}
+.icon {
+    width: 24px;
+    height: 24px;
 }
 .swiper-wrapper img {
     width: 1519px;
